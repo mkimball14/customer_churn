@@ -32,10 +32,6 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
-![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/Regression1.png "Classification Report")
-![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/Regression2.png "Confusion Matrix Plot")
-![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/Heatmap1.png "Heatmap")
-
 ## Model Building 
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
@@ -46,7 +42,19 @@ I tried two different models:
 *	**Logistic Regression** – Baseline for the model
 *	**Decision Tree Classification** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 
+## Decision Tree Classification
+![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/Regression1.png "Classification Report")
+
 ## Model performance
 The Decision Tree Classificaiton model far outperformed the other approaches on the test and validation sets. 
 *	**Logistic Regression** : MAE = 11.22
 *	**Decision Tree Classification**: MAE = 18.86
+
+## Regression Analysis
+
+![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/Regression1.png "Classification Report")
+![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/Regression2.png "Confusion Matrix Plot")
+
+## Heat Map with Confusion Matrix
+![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/Heatmap1.png "Heatmap")
+![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/ConfusionMatrix.png "Confusion Matrix")
