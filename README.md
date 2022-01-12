@@ -43,7 +43,7 @@ I tried two different models:
 *	**Decision Tree Classification** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 
 ## Decision Tree Classification
-![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/Regression1.png "Classification Report")
+![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/SeniorCitizenTree.png "Senior Citizenship Decision Tree")
 
 ## Model performance
 The Decision Tree Classificaiton model far outperformed the other approaches on the test and validation sets. 
