@@ -3,6 +3,7 @@
 * Visualized customer data using both Python and Tableau
 
 ## Code and Resources Used 
+**Tableau Desktop:** 2020.3  
 **Python Version:** 3.7  
 **Packages:** pandas, numpy, sklearn, matplotlib
 
