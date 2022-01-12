@@ -44,8 +44,11 @@ I tried two different models:
 
 ## Decision Tree Classification
 
-The decision tree shows that this telecom company has a very low customer retention rate with Senior Citizens as nearly half of them leave the company
+This decision tree shows that this telecom company has a very low customer retention rate with Senior Citizens as nearly half of them leave the company
+
 ![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/SeniorCitizenTree.png "Senior Citizenship Decision Tree")
+
+This decision tree shows that Telecom has a much lower customer retention rate with customers who do not have dependents. Telcom can potentially gain loyal customers by creating family plans.
 
 ## Model performance
 The Decision Tree Classificaiton model far outperformed the other approaches on the test and validation sets. 
