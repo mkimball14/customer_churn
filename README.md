@@ -50,6 +50,8 @@ This decision tree shows that this telecom company has a very low customer reten
 
 This decision tree shows that Telecom has a much lower customer retention rate with customers who do not have dependents. Telcom can potentially gain loyal customers by creating family plans.
 
+![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/DependentsTree.png "Senior Citizenship Decision Tree")
+
 ## Model performance
 The Decision Tree Classificaiton model far outperformed the other approaches on the test and validation sets. 
 *	**Logistic Regression** : MAE = 11.22
