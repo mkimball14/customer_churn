@@ -31,7 +31,7 @@ I tried two different models:
 ![alt text](https://github.com/mkimball14/customer_churn/blob/main/images/DependentsTree.png "Senior Citizenship Decision Tree")
 
 ## Model performance
-The Decision Tree Classificaiton model far outperformed the other approaches on the test and validation sets. 
+The Logistic Regression model far outperformed the other approaches on the test and validation sets. 
 *	**Logistic Regression** : MAE = 11.22
 *	**Decision Tree Classification**: MAE = 18.86
 
